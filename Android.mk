@@ -6,7 +6,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := cocos_jpeg_static
+LOCAL_MODULE := jpeg
 
 LOCAL_MODULE_FILENAME := libjpeg
 
@@ -27,4 +27,4 @@ LOCAL_SRC_FILES += \
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
 
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
